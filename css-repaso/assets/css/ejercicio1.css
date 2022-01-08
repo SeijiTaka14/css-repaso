@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(211,211,211);
+}
+
+.titulo {
+    text-align: center;
+}
+
+.subtitulo {
+    color: white;
+    background-color: rgb(128,128,128);
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.parrafo {
+    display: block;
+    align-content: center;
+    margin: 0 8cm;
+}
+
+
+.rojo {
+    color: red;
+}
+
+.bold {
+    background-color: white;
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    height: 150px;
+}

@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(211,211,211);
+}
+
+.titulo-principal {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.contenido-principal {
+    /*Medidas relativas, con % haces una página responsiva*/
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+
+.contenido-principal article {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.encabezado {
+    color: white;
+    background-color:rgb(128,128,128);
+    padding: 10px 5px;
+}
+
+.contenido {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imagen {
+    float: left;
+}
+
+.texto {
+    margin-left: 150px;
+}
+
+.contenido-principal .texto p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+

@@ -1,0 +1,35 @@
+/*Esto quita el espacio que queda arriba del header, es decir el margin y el padding en 0*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: rgb(241, 146, 146);
+    height: 50px;
+}
+
+.menu ul {
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+.elemento {
+    display: inline;
+    margin: 0 20px;
+}
+
+.elemento a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    transition: color 1s;
+}
+
+.elemento a:hover {
+    color: gray;
+}
